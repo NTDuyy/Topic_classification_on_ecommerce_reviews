@@ -1,13 +1,11 @@
 # Topic modelling for Vietnamese product reviews
 Result summary:
-|   Feature representation          | SVM  |      |                   | XGBoost |      |                   |      PhoBert      |
-|:-----------------------:|:----:|:----:|:-----------------:|:-------:|:----:|:-----------------:|:-----------------:|
-|  Model |  BOW | CBOW | PhoBert Embedding |   BOW   | CBOW | PhoBert Embedding | PhoBert Embedding |
-|       Hamming loss      |  0.1 | 0.12 |        0.08       |   0.09  | 0.11 |        0.08       |        0.08       |
-|        Precision        | 0.88 | 0.85 |        0.87       |   0.87  | 0.87 |        0.88       |        0.88       |
-|          Recall         | 0.83 | 0.79 |        0.90       |   0.87  |  0.8 |        0.89       |        0.89       |
-|        F-measure        | 0.85 | 0.82 |        0.88       |   0.87  | 0.83 |        0.88       |        0.88       |
-
+|   Feature representation          | BOW  | Tf-idf | Skip-gram | CBOW | PhoBERT |
+|:-----------------------:|:----:|:----:|:----:|:----:|:----:|
+| Best performing model  | CC-XGB | CC-XGB | CC-XGB | CC-XGB| BR-LR |
+|       Hamming loss      |  0.049 | 0.05 | 0.071 | 0.066 | 0.022 |
+|        Macro-F1        | 0.89 | 0.89 | 0.83 | 0.84 | 0.96 |
+|          Micro-F1         | 0.92 | 0.92 |0.88 | 0.89 | 0.96 |
 Demo Streamlit app: [HuggingFace Repo](https://huggingface.co/spaces/NTDuy/vietnamese-shopee-streamlit)
 <br />
 App screenshot:
