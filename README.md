@@ -6,6 +6,7 @@ Result summary:
 |       Hamming loss      |  0.049 | 0.05 | 0.071 | 0.066 | 0.022 |
 |        Macro-F1        | 0.89 | 0.89 | 0.83 | 0.84 | 0.96 |
 |          Micro-F1         | 0.92 | 0.92 |0.88 | 0.89 | 0.96 |
+----------------------------------------------------------------
 Demo Streamlit app: [HuggingFace Repo](https://huggingface.co/spaces/NTDuy/vietnamese-shopee-streamlit)
 <br />
 App screenshot:
