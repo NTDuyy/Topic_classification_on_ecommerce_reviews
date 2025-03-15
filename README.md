@@ -1,5 +1,7 @@
 # Topic modelling for Vietnamese product reviews
 Result summary:
+* CC-XGB: Classifier Chain + XGBoost model
+* BR-LR: Binary Relevance + Logistic Regression
 |   Feature representation          | BOW  | Tf-idf | Skip-gram | CBOW | PhoBERT |
 |:-----------------------:|:----:|:----:|:----:|:----:|:----:|
 | Best performing model  | CC-XGB | CC-XGB | CC-XGB | CC-XGB| BR-LR |
