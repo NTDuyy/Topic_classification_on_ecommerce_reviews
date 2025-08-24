@@ -8,7 +8,7 @@ This repository provides source code for our [paper](https://link.springer.com/a
     pages={1--15},
     year={2025},
     publisher={Springer}
-      }
+    }
 If you find this repository useful in your research, please consider citing our paper.
 
 ## 🧩 Methodology Summary
