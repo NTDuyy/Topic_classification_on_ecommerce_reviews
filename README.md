@@ -23,6 +23,7 @@ If you find this repository useful in your research, please consider citing our 
 ## 📊 Results Summary
 * CC-XGB: Classifier Chain + XGBoost model
 * BR-LR: Binary Relevance + Logistic Regression
+* Evaluation metric: Hamming Loss
 
 |   Feature representation          | BOW  | Tf-idf | Skip-gram | CBOW | PhoBERT |
 |:-----------------------:|:----:|:----:|:----:|:----:|:----:|
