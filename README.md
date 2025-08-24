@@ -8,9 +8,19 @@ This repository provides source code for our [paper](https://link.springer.com/a
     pages={1--15},
     year={2025},
     publisher={Springer}
-  }
+      }
+If you find this repository useful in your research, please consider citing our paper.
 
-Result summary:
+## 🧩 Methodology Summary
+1. **Topic Modelling**  
+   - Extract general topics and their related keywords from dataset of customer review.  
+   - Experimented with topic modelling models: LDA [Blei et al., 2003](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf), BERTopic [Grootendorst, 2022](https://arxiv.org/abs/2203.05794)
+2. **Topic Classification**
+   - Classify reviews based on identified topics.
+   - Experimented models: Bag-of-words, Tf-idf, Word2Vec [Mikolov et al., 2013](https://arxiv.org/abs/1301.3781), PhoBERT [Nguyen et al., 2020](https://arxiv.org/abs/2003.00744)
+
+
+## 📊 Results Summary
 * CC-XGB: Classifier Chain + XGBoost model
 * BR-LR: Binary Relevance + Logistic Regression
 
