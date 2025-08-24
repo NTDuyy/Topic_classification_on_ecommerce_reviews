@@ -36,3 +36,5 @@ Demo Streamlit app: [HuggingFace Repo](https://huggingface.co/spaces/NTDuy/Vietn
 App screenshot:
 ![image](https://github.com/DDKson/THESIS_DSEB62-Product_review_analysis/assets/92723196/7e633598-68b7-46ed-a1ed-64943e6f6207)
 
+Downloadable classification model: [HuggingFace Model]([https://huggingface.co/spaces/NTDuy/Vietnamese-review-classification](https://huggingface.co/NTDuy/Phobert-base-v2-shopee))
+
