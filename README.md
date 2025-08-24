@@ -32,6 +32,7 @@ If you find this repository useful in your research, please consider citing our 
 |          Micro-F1         | 0.92 | 0.92 |0.88 | 0.89 | 0.96 |
 ----------------------------------------------------------------
 Downloadable classification model: [HuggingFace Model](https://huggingface.co/NTDuy/Phobert-base-v2-shopee)
+<br />
 Demo Streamlit app: [HuggingFace Repo](https://huggingface.co/spaces/NTDuy/Vietnamese-review-classification)
 <br />
 App screenshot:
