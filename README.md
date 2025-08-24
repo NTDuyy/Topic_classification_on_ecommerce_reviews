@@ -1,4 +1,4 @@
-# Topic modelling for Vietnamese product reviews
+# Topic classification of vietnamese product reviews in e-commerce using PhoBERT
 This repository provides source code for our [paper](https://link.springer.com/article/10.1057/s41270-025-00402-w):
 
     @article{nguyen2025topic,
